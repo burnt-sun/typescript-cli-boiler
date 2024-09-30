@@ -2,11 +2,9 @@ import * as path from "path";
 import { readJsonFile, appendToJson } from "./util";
 
 async function main() {
-  // grab input and output directories from environment variables
-  const inputDir = process.env.INPUT_DIR || "../data";
-  const outputDir = process.env.OUTPUT_DIR || "../output";
-  const dataFilePath = path.join(__dirname, inputDir, "data.json");
-  const outputFilePath = path.join(__dirname, outputDir, "output.json");
+  // grab input and output directories
+  const dataFilePath = path.join(__dirname, "data.json");
+  const outputFilePath = path.join(__dirname, "output.json");
 
   // read input
   const inputData = readJsonFile(dataFilePath);
