@@ -1,6 +1,6 @@
 ## Build & Run
-> docker compose up
+1. `docker compose up`
 
 ## Develop
-> npm install
-> npm run start
+1. `npm install`
+2. `npm run start`
