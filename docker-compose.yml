@@ -4,5 +4,6 @@ services:
     build: .
     container_name: cmdline-typescript
     volumes:
+      - ./data:/usr/src/app/data
       - ./output:/usr/src/app/output
     command: npm start
