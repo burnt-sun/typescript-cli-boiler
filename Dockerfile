@@ -14,5 +14,5 @@ RUN npm install
 COPY ./src ./src
 COPY ./data ./data
 
-# Step 7: Run the TypeScript script using ts-node
+# Step 6: Run the TypeScript script using ts-node
 CMD ["npm", "start"]
